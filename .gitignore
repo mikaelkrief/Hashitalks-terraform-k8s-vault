@@ -27,3 +27,10 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+.idea
+/AKS/.terraform/
+/Vault/.terraform/
+/AKS/versions.tf
+/Vault/databackend.tf
+/note.txt
