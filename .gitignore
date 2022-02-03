@@ -29,8 +29,8 @@ override.tf.json
 # example: *tfplan*
 
 .idea
-/AKS/.terraform/
-/Vault/.terraform/
-/AKS/versions.tf
-/Vault/databackend.tf
+/01-AKS/.terraform/
+/02-Vault/.terraform/
+/01-AKS/versions.tf
+/02-Vault/databackend.tf
 /note.txt

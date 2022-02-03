@@ -42,6 +42,11 @@ resource "helm_release" "vault" {
   ]
 
   set {
+    name  = "server.image.tag"
+    value = var.vault_image_tag
+  }
+
+  set {
     name  = "ui.loadBalancerIP"
     value = azurerm_public_ip.vault-ip.ip_address
   }
