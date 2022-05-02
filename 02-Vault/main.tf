@@ -1,7 +1,3 @@
-
-
-
-
 data "azurerm_kubernetes_cluster" "cluster" {
   name                = data.terraform_remote_state.aks.outputs.aks_name
   resource_group_name = data.terraform_remote_state.aks.outputs.aks_resource_group
